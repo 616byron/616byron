@@ -12,18 +12,27 @@ Use `templates/PROJECT_README_TEMPLATE.md` when preparing an individual project'
 
 ## Edit artwork
 
-The SVG files in `assets/hero/`, `assets/projects/` and `assets/modules/` are the editable source of truth. They contain real text and vector geometry, without embedded raster assets, scripts or remote resources.
+The SVG files in `assets/hero/`, `assets/projects/` and `assets/modules/` contain real text and vector geometry, without embedded raster assets, scripts or remote resources. Registry content is maintained in `assets/projects/registry.json`; `scripts/build-registry.cjs` owns its desktop/mobile composition. Keep the README text version and image descriptions aligned with those sources.
 
 The PNG files are committed so GitHub does not need a build step or an external rendering service. Regenerate them on a machine with Segoe UI, Segoe UI Bold and Consolas:
 
 ```sh
 npm ci
+npm run build:registry
 npm run render:assets
 ```
 
 To render only specific folders, use `npm run render:assets -- modules` or `npm run render:assets -- projects modules`. The renderer rejects unknown folder names. No dependency changes are required.
 
-The What I Build panel uses a two-by-two desktop composition and four stacked mobile modules, selected with `<picture>` up to a 1000 px viewport so the text remains readable beside GitHub's sidebar. Keep its complete meaning in the image alt text. The small project marks sit beside native names and statuses; give them short descriptive alt text because GitHub makes images clickable. Full approved project covers remain in the [design reference](DESIGN_DNA.md#artwork-reference).
+The What I Build panel, project registry and focus artwork use separate mobile compositions, selected with `<picture>` up to a 1000 px viewport so the text remains readable beside GitHub's sidebar. Keep the complete meaning in alt text and retain the registry's expandable native text version. Full original project covers remain in the [design reference](DESIGN_DNA.md#artwork-reference).
+
+## Project registry rules
+
+Keep ecosystem membership separate from current focus. A prototype, research plan or unverified idea is not automatically active. The existing focus selection remains Guia IA and Two Paws until Luciano changes it. To change that selection, update `focus` in the manifest and adapt the focus composition; the generator deliberately stops when a different selection needs a layout update.
+
+Digital Life Lab and Mini Chappie currently summarize owner-supplied ideas, with unverified stages. Verify their current files before replacing those labels. Also verify the robot's official name. Scientific Partner stays within Digital Life Lab; do not count it as an independent flagship. Career OS has research documents, not an implemented application. The inspected Presença IA rig is 2D; do not advertise 3D or a live AI connection without new evidence.
+
+Describe project ideas only. Keep private repository links, internal architecture details, local paths and private code out of the public profile. Naming a project never authorizes changing its repository visibility. Record detailed source evidence and unresolved checks in the local `profile-audit/` folder outside this repository.
 
 Keep local previews and verification output outside the public repository. A short public completion report may live in `docs/`; internal audit details and machine paths must stay local.
 

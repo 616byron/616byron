@@ -1,0 +1,95 @@
+{
+  "reviewed": "2026-09-14",
+  "projects": [
+    {
+      "id": "digital-life-lab",
+      "name": "Digital Life Lab",
+      "group": "CORE",
+      "stage": "STAGE UNVERIFIED",
+      "description": "A long-term artificial-life laboratory exploring digital organisms, AI, agents and simulation.",
+      "areas": "Artificial life · AI · Agents · Simulation · Research tools",
+      "note": "Concept supplied by Luciano. Current source files were not available for inspection. Scientific Partner belongs here as a companion research subsystem, not an independent flagship; its implementation is also unverified.",
+      "focus": false
+    },
+    {
+      "id": "personal-project-os",
+      "name": "Personal Project OS",
+      "group": "CORE",
+      "stage": "RESEARCH / ARCHITECTURE",
+      "description": "A personal computing environment designed to connect independent projects.",
+      "areas": "Personal computing · Developer tools · AI · Local-first systems",
+      "note": "Architecture research and planning; product implementation has not started.",
+      "focus": false
+    },
+    {
+      "id": "guia-ia",
+      "name": "Guia IA",
+      "group": "SOFTWARE / AI",
+      "stage": "IN DEVELOPMENT",
+      "description": "A practical Brazilian guide to working with modern AI.",
+      "areas": "AI · Education · React · TypeScript",
+      "note": "Private application with implemented learning content and interface.",
+      "focus": true
+    },
+    {
+      "id": "two-paws",
+      "name": "Two Paws",
+      "group": "INTERACTIVE",
+      "stage": "PRE-PRODUCTION",
+      "description": "A cat-driven exploration game with shared interactive systems.",
+      "areas": "Game development · Godot · Interactive systems",
+      "note": "Pre-production with local gameplay prototypes; the full game is not in production.",
+      "focus": true
+    },
+    {
+      "id": "ruptura",
+      "name": "Ruptura",
+      "group": "INTERACTIVE",
+      "stage": "PROTOTYPE",
+      "description": "An original platform / arena fighter exploring combat and worldbuilding.",
+      "areas": "Game development · Godot · Combat systems · Worldbuilding",
+      "note": "Local combat prototype with match flow; no public release verified.",
+      "focus": false
+    },
+    {
+      "id": "mini-chappie",
+      "name": "Mini Chappie",
+      "group": "LAB",
+      "stage": "STAGE UNVERIFIED",
+      "description": "The idea of a compact physical robot companion with local AI and personality.",
+      "areas": "Robotics · Embedded systems · AI · Human-computer interaction",
+      "note": "Working name supplied by Luciano. Official name, current source and hardware implementation still need verification; the illustration represents the idea only.",
+      "focus": false
+    },
+    {
+      "id": "presenca-ia",
+      "name": "Presença IA",
+      "group": "LAB",
+      "stage": "RIG EXPERIMENT",
+      "description": "An animated visual presence for AI, exploring face, gaze and expression.",
+      "areas": "Godot · Animation · AI interface · Digital presence",
+      "note": "Local AI Presence is the provisional name in the files. The inspected rig is 2D; live AI integration and a 3D implementation are not verified.",
+      "focus": false
+    },
+    {
+      "id": "chappie-local",
+      "name": "Chappie Local",
+      "group": "LAB",
+      "stage": "PROTOTYPE",
+      "description": "A personal local AI assistant with conversation, memory and controlled tools.",
+      "areas": "Local AI · Agents · Personal computing · Tools",
+      "note": "Source prototype and a later rebuild plan exist. Full desktop and physical Ollama validation remain pending in the inspected report.",
+      "focus": false
+    },
+    {
+      "id": "career-os",
+      "name": "Career OS",
+      "group": "RESEARCH",
+      "stage": "RESEARCH / PLANNING",
+      "description": "A personal career system organized around evidence and learning.",
+      "areas": "Personal tools · AI · Local-first systems",
+      "note": "Research and an architecture plan exist; application implementation has not started.",
+      "focus": false
+    }
+  ]
+}

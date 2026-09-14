@@ -23,13 +23,17 @@ A personal software laboratory: calm, precise, curious and visibly made by one p
 - The banner has a desktop source at 1400 × 440 and a separately composed mobile source at 700 × 700. The README selects the mobile PNG through `<picture>` below 600 px.
 - Project covers use 1200 × 340 artwork and a shared margin rhythm. Two Paws has a geometric cat and an exploratory path; Guia IA has an open-page motif and editorial rules.
 - These are original covers, not product screenshots or claims of shipped functionality.
-- What I Build uses four numbered workstation modules: two-by-two on desktop and stacked on smaller screens. Amber marks the sequence; warm text carries the meaning. The project list uses small marks derived from the approved book and cat geometry.
+- What I Build uses four numbered workstation modules: two-by-two on desktop and stacked on smaller screens. Amber marks the sequence; warm text carries the meaning.
+- The 616 Project Registry is the ecosystem map. Core projects have the largest panels; software and games use medium entries; lab projects use smaller modules; Career OS has a compact research entry. Scientific Partner is nested inside Digital Life Lab.
+- Each identity has its own motif: cellular networks for Digital Life Lab, a modular workstation for Personal Project OS, an open book for Guia IA, a cat and path for Two Paws, arena geometry for Ruptura, a compact robot for Mini Chappie, facial controls for Presença IA, a terminal for Chappie Local and a structured document for Career OS. Ruptura uses no discarded characters or old art. These are original conceptual diagrams, not product screenshots or evidence of implemented features.
+- The registry uses teal for the scientific vision, blue for computing and education, amber for play and robotics, terracotta for combat, and lavender for digital presence, within the shared graphite canvas and typography. Color supplements names, categories and stage labels.
+- Currently Building is a separate focus selection. It retains Guia IA and Two Paws; membership in the registry does not imply current development activity.
 
 ## GitHub constraints
 
 The dark identity belongs to the images. GitHub controls the page theme, fonts and native Markdown layout. The README uses a single column, native text and fluid images, without custom CSS or rigid tables.
 
-Project names and statuses also appear as native text outside the images. That keeps the meaning accessible and readable on narrow screens. There are no external badges, statistics cards, trackers, remote fonts or icon services.
+Project names, ideas and stages also appear as native text in the expandable text version. The registry and focus panel have separately composed mobile sources, selected up to a 1000 px viewport. There are no external badges, statistics cards, trackers, remote fonts or icon services.
 
 ## Editorial rules
 
@@ -37,7 +41,7 @@ Write in short, concrete English. Describe what exists and label the stage. Do n
 
 ## Artwork reference
 
-The full approved covers are kept here as the original identity references. The profile uses compact project marks to avoid repeating large artwork. These covers are not product screenshots.
+The original covers below remain as identity references. The registry and focus compositions reuse their book and cat geometry. These covers are not product screenshots.
 
 ### Guia IA
 

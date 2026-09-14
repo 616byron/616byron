@@ -4,6 +4,7 @@
   "private": true,
   "description": "Optional local renderer for the LB / 616 profile artwork.",
   "scripts": {
+    "build:registry": "node scripts/build-registry.cjs",
     "render:assets": "node scripts/render-assets.cjs"
   },
   "devDependencies": {
