@@ -4,7 +4,9 @@ Work only on `profile/workstation-candidate`. Do not merge, push main or create 
 
 ## Content
 
-Edit `README.md` for native names, links, status, disclosure content and navigation. Keep `assets/projects/registry.json` aligned. Current Focus contains Personal Project OS (research), Guia IA and Two Paws; it is a selection, not the entire registry.
+Edit `README.md` for native names, links, status, disclosure content and navigation. Keep `assets/projects/registry.json` aligned. Current Focus contains Personal Project OS (architecture/planning), Guia IA and Two Paws; it is a selection, not the entire registry.
+
+Use portfolio language in public copy. Digital Life Lab is a long-term project; Presença IA is a technology exploration. Keep missing-source notes, unverified implementation and engine decisions in `docs/WORKSTATION_CANDIDATE_REPORT.md` and local technical notes. The registry has five project disclosures; Scientific Partner is native content inside Digital Life Lab. Three further disclosures cover professional practice. Toolchain and workflow stay visible without toggles.
 
 Digital Life Lab remains a long-term flagship with unverified implementation. Scientific Partner belongs within it. Presença IA is being reconsidered; do not imply a technology migration, 3D implementation or live AI connection has been completed.
 
@@ -25,7 +27,7 @@ On PowerShell with script execution disabled, use `npm.cmd`. The generator uses 
 
 ## Preview and compatibility
 
-Use the existing local `_profile-work/` infrastructure outside this public repository. The workstation harness renders through GitHub's Markdown API, captures historical references and tests pointer/keyboard disclosures, nested details, anchors, image loading, reduced-motion sources and APNG playback. It also verifies the actual GitHub candidate branch after push.
+Use the existing local `_profile-work/` infrastructure outside this public repository. The workstation harness renders through GitHub's Markdown API, captures historical references and tests pointer/keyboard disclosures, anchors, image loading, reduced-motion sources and APNG playback. The cleanup harness also checks eight disclosures, public labels and visible toolchain/subsystem content. It verifies the actual GitHub candidate branch after push.
 
 The local profile preview mirrors GitHub profile content widths: 238, 278, 308 and 348 px at mobile viewports of 320, 360, 390 and 430 px. It adds the heading anchors that the Markdown API omits; the actual GitHub branch page is tested separately. Preview CSS belongs only to the local harness, never the README.
 

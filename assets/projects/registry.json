@@ -5,20 +5,19 @@
       "id": "digital-life-lab",
       "name": "Digital Life Lab",
       "group": "CORE",
-      "stage": "STAGE UNVERIFIED",
+      "stage": "LONG-TERM PROJECT",
       "description": "A long-term artificial-life laboratory exploring digital organisms, AI, agents and simulation.",
       "areas": "Artificial life · AI · Agents · Simulation · Research tools",
-      "note": "Concept supplied by Luciano. Current source files were not available for inspection. Scientific Partner belongs here as a companion research subsystem, not an independent flagship; its implementation is also unverified.",
+      "note": "Scientific Partner is a research subsystem within Digital Life Lab.",
       "focus": false
     },
     {
       "id": "personal-project-os",
       "name": "Personal Project OS",
       "group": "CORE",
-      "stage": "RESEARCH / ARCHITECTURE",
-      "description": "A personal computing environment designed to connect independent projects.",
-      "areas": "Personal computing · Developer tools · AI · Local-first systems",
-      "note": "Architecture research and planning; product implementation has not started.",
+      "stage": "ARCHITECTURE / PLANNING",
+      "description": "A personal computing environment designed to connect projects, tools and AI workflows without absorbing them.",
+      "areas": "Project Registry · Developer Tools · AI · Local-first systems",
       "focus": true
     },
     {
@@ -45,10 +44,9 @@
       "id": "presenca-ia",
       "name": "Presença IA",
       "group": "LAB",
-      "stage": "TECHNOLOGY UNDER REVIEW",
-      "description": "An animated visual presence for AI, exploring face, gaze and expression.",
+      "stage": "TECHNOLOGY EXPLORATION",
+      "description": "Exploring visual identity for AI through face, gaze, expression and embodied interfaces.",
       "areas": "Animation / AI interface / Digital presence",
-      "note": "Earlier Godot 2D rig exists. The owner is reconsidering the rendering technology. No 3D or live AI integration is claimed.",
       "focus": false
     }
   ]

@@ -1,6 +1,6 @@
 # LB / 616 — Workstation design DNA
 
-This branch is a **Workstation Candidate**, pending Luciano's visual review. The approved LB / 616 identity belongs to a person and a personal software lab.
+This branch is a **Workstation Candidate**. Luciano approved the direction; the editorial cleanup awaits visual review. The approved LB / 616 identity belongs to a person and a personal software lab.
 
 ## Palette and typography
 
@@ -20,7 +20,7 @@ Native metadata, links and disclosure controls create the interface between visu
 
 Digital Life Lab is the long-term flagship and opens by default. Its scientific panel contains original cellular/network geometry; Scientific Partner is a nested research subsystem. Current source and implementation remain unverified.
 
-Personal Project OS has a computing panel in Current Focus and a core record in the registry. Its verified stage is research/architecture, not an implemented OS.
+Personal Project OS has a computing panel in Current Focus and a core record in the registry. Its public stage is architecture/planning.
 
 Guia IA retains the original open-book geometry and editorial identity. Two Paws retains its cat and exploration path. The approved original covers remain in `assets/projects/` as references; Current Focus recomposes their visual motifs rather than displaying a wall of banners.
 
@@ -28,7 +28,9 @@ Presença IA is an experiment with technology under review following the owner's
 
 ## Interaction and motion
 
-The README uses supported native HTML/Markdown: anchors, clickable images, tables, details and summary. Twelve disclosures cover toolchain, project records, one nested subsystem and professional practice. A single APNG concept is exported for desktop/mobile: three one-second frames, one play, ending static. Reduced-motion visitors receive static PNGs. No SVG animation or client-side application code is required.
+The README uses supported native HTML/Markdown: anchors, clickable images, tables, details and summary. Eight disclosures cover five project records and three professional practice areas. Toolchain and workflow are native visible text; Scientific Partner stays within its parent project without an extra disclosure. A single APNG concept is exported for desktop/mobile: three one-second frames, one play, ending static. Reduced-motion visitors receive static PNGs. No SVG animation or client-side application code is required.
+
+Portfolio copy describes project direction and stage. Source availability, implementation uncertainty and technology decisions belong in the candidate report and technical notes, not in the README or illustrated labels.
 
 The illustrated interfaces are conceptual identity artwork. BUILDING describes Luciano's activity, not a measured service status. GitHub controls the page theme and layout; image panels remain graphite in both themes.
 
@@ -38,4 +40,4 @@ The illustrated interfaces are conceptual identity artwork. BUILDING describes L
 - B / `976c848`: retain professional Data + Automation positioning and the complete real toolset.
 - C / `25e5ebe`: replace compact marks and four disconnected capability boxes with a connected console, richer focus surface and explorable project records.
 
-The candidate is a design proposal, not an approved final version.
+The direction is approved; the branch remains a candidate until Luciano authorizes a merge.

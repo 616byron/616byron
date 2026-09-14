@@ -60,11 +60,11 @@ consoleArt(false);consoleArt(true);
 
 // One current-focus surface: computing on the left, editorial/play on the right.
 let f=M(30,46,'616://FOCUS',26,C.a)+M(823,46,'RESEARCH / SOFTWARE / PLAY',24)+L(30,74,1170,74)+box(30,99,558,313,C.s)+box(612,99,558,145,C.s)+box(612,266,558,146,C.up);
-f+=M(56,141,'01 / COMPUTING ENVIRONMENT',24,C.b)+T(54,204,'Personal Project OS',45,C.t,600)+M(56,251,'RESEARCH / ARCHITECTURE',24,C.a)+group(322,285,.75,icon('os'))+T(56,300,'Connect projects.',27,C.m)+T(56,340,'Keep their identities.',27,C.m);
+f+=M(56,141,'01 / COMPUTING ENVIRONMENT',24,C.b)+T(54,204,'Personal Project OS',45,C.t,600)+M(56,251,'ARCHITECTURE / PLANNING',24,C.a)+group(322,285,.75,icon('os'))+T(56,300,'Connect projects.',27,C.m)+T(56,340,'Keep their identities.',27,C.m);
 f+=group(996,115,.8,icon('book'))+M(640,132,'02 / KNOWLEDGE',23,C.b)+T(638,181,'Guia IA',43,C.t,600)+M(640,218,'IN DEVELOPMENT',24,C.b);
 f+=group(997,272,.77,icon('cat'))+M(640,301,'03 / INTERACTIVE',23,C.a)+T(638,350,'Two Paws',43,C.t,600)+M(640,389,'PRE-PRODUCTION',24,C.a);
-save('current-focus',1200,438,'Current focus: Personal Project OS, research; Guia IA, development; Two Paws, pre-production.',f);
-let fm=M(28,47,'616://FOCUS',31,C.a)+L(28,77,572,77)+box(28,104,544,294,C.s)+M(50,149,'COMPUTING ENVIRONMENT',28,C.b)+T(48,206,'Personal Project OS',47,C.t,600)+M(50,252,'RESEARCH / ARCHITECTURE',28,C.a)+T(50,308,'Connect projects.',33,C.m)+T(50,354,'Keep their identities.',33,C.m)+group(389,282,.53,icon('os'));
+save('current-focus',1200,438,'Current focus: Personal Project OS, architecture / planning; Guia IA, development; Two Paws, pre-production.',f);
+let fm=M(28,47,'616://FOCUS',31,C.a)+L(28,77,572,77)+box(28,104,544,294,C.s)+M(50,149,'COMPUTING ENVIRONMENT',28,C.b)+T(48,206,'Personal Project OS',47,C.t,600)+M(50,252,'ARCHITECTURE / PLANNING',28,C.a)+T(50,308,'Connect projects.',33,C.m)+T(50,354,'Keep their identities.',33,C.m)+group(389,282,.53,icon('os'));
 fm+=box(28,422,544,190,C.s)+M(50,465,'KNOWLEDGE',29,C.b)+T(48,522,'Guia IA',47,C.t,600)+M(50,572,'IN DEVELOPMENT',31,C.b)+group(423,448,.76,icon('book'));
 fm+=box(28,636,544,197,C.up)+M(50,679,'INTERACTIVE',29,C.a)+T(48,736,'Two Paws',47,C.t,600)+M(50,786,'PRE-PRODUCTION',31,C.a)+group(424,660,.75,icon('cat'));
 save('current-focus-mobile',600,859,'Current focus: Personal Project OS, Guia IA and Two Paws.',fm);
