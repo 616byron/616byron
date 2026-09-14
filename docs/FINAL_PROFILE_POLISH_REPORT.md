@@ -53,11 +53,18 @@ Selected Work describes operational analysis, reporting, data transformation, sp
 
 ## Publication
 
-- Presentation commit: pre-push review passed; hash will be recorded after commit.
-- Push: pending.
-- Published desktop/mobile verification: pending.
+- Presentation commit: [`25e5ebea31bd108758cfa35d0db18862ce1a4f78`](https://github.com/616byron/616byron/commit/25e5ebea31bd108758cfa35d0db18862ce1a4f78), `feat(profile): finalize 616 portfolio presentation`.
+- Push: **OK**, to `main`, without force push.
+- Published verification: **8 passing cases**, at 360, 390, 430 and 1440 px in dark and light themes.
+- Published article height: **2177 → 1469 px** on desktop and **2462 → 1821 px** at 390 px, approximately **33%** and **26%** shorter than the published V2.
+- New module body text renders at approximately **15.8, 17.5 and 19.7 px** across the three mobile widths, with no clipping or overflow.
+- All four README images load. The synthetic-plan link returns HTTP 200, and the internal project link scrolls to the correct heading.
+- The five-second visual review makes data, automation and software explicit, alongside AI and personal experiments.
+- All requested quality gates passed. No open issue remains for this polish pass.
 
-The final evidence will be recorded after publication. Preview filenames are `github-profile-desktop.png` and `github-profile-mobile.png`; the image files are kept locally, not committed.
+Final previews: `github-profile-desktop.png` and `github-profile-mobile.png`, plus a light-theme mobile capture. Images and detailed verification output remain local. Article-only captures can include GitHub's sticky navigation over the top edge; the full-page captures preserve the complete hero.
+
+This report records the published presentation commit above. Its completed verification results are saved in a subsequent documentation-only commit; the README and artwork are unchanged by that update.
 
 ## Next step
 
