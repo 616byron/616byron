@@ -5,71 +5,50 @@
 
 ### // HELLO
 
-Hi, I'm Luciano, based in Brazil. I work with data analysis, process automation and software, building tools that reduce repetitive work and make operational data useful.
+Hi, I'm Luciano. I work with data analysis, process automation and software, building tools that make operational work simpler.
 
-Alongside my professional work, I build personal tools and explore artificial intelligence, personal computing and interactive systems.
+Outside professional work, I explore AI, personal computing and interactive systems through personal software projects.
 
 ### // WHAT I BUILD
 
-**DATA** — Analysis, reporting and operational insights.
-
-**AUTOMATION** — Workflows and tools that remove repetitive work.
-
-**SOFTWARE** — Applications and utilities built around practical problems.
-
-**EXPERIMENTS** — AI, personal computing, simulations and interactive systems.
+<picture>
+  <source media="(max-width: 1000px)" srcset="assets/modules/what-i-build-mobile.png">
+  <img src="assets/modules/what-i-build.png" alt="01 / Data — operational analysis and insights. 02 / Automation — less repetitive work. 03 / Software — tools for practical problems. 04 / Experiments — AI and interactive systems." width="100%">
+</picture>
 
 ### // TOOLBOX
 
-**// DATA & AUTOMATION**
+<p><strong>DATA &amp; AUTOMATION</strong><br>
+Excel · Power Query · SQL<br>
+Google Apps Script · VBA · Python</p>
 
-Excel · Power Query · SQL · Google Apps Script · VBA · Python
-
-**// SOFTWARE & AI**
-
-TypeScript · JavaScript · React · Git · AI Tooling · Godot
-
-### // CURRENTLY BUILDING
-
-- **Guia IA** — a practical Brazilian guide to working with modern AI. `PRIVATE · IN DEVELOPMENT`
-- **Two Paws** — an experimental cat-driven exploration game. `PRIVATE · PRE-PRODUCTION`
+<p><strong>SOFTWARE &amp; AI</strong><br>
+TypeScript · JavaScript · React<br>
+Git · AI Tooling · Godot</p>
 
 ### // SELECTED WORK
 
-**DATA / AUTOMATION · Professional practice**
+<p><strong>DATA / AUTOMATION</strong><br>
+My professional practice: operational data analysis, reporting and data transformation; spreadsheet and workflow automation; internal productivity tools.</p>
 
-My professional work includes operational data analysis, reporting, data transformation, spreadsheet automation and internal productivity tools. This work stays private; public examples using synthetic data are [planned](docs/DATA_AUTOMATION_PORTFOLIO_PLAN.md).
+Professional work stays private. [PUBLIC LABS → PLANNED](docs/DATA_AUTOMATION_PORTFOLIO_PLAN.md), using synthetic data.
 
-The personal projects below currently represent software, AI and interactive experiments.
+**SOFTWARE / AI / EXPERIMENTS** — [Current personal projects ↓](#-currently-building).
 
-**SOFTWARE / AI**
+### // CURRENTLY BUILDING
 
-<img src="assets/projects/guia-ia.png" alt="Guia IA — a practical guide to artificial intelligence. Original project cover." width="100%">
+<p><img src="assets/projects/guia-ia-mark.png" width="28" height="28" alt="Guia IA book mark"> <strong>Guia IA</strong> — A practical AI guide in Portuguese.<br>
+<code>PRIVATE / IN DEVELOPMENT</code></p>
 
-**Guia IA** · `PRIVATE / IN DEVELOPMENT`
-
-A guide in Brazilian Portuguese for learning to work with modern AI. Built with React and TypeScript, with an emphasis on clear explanations and practical use.
-
-**EXPERIMENTS / INTERACTIVE SYSTEMS**
-
-<img src="assets/projects/two-paws.png" alt="Two Paws — experimental game development. Original project cover." width="100%">
-
-**Two Paws** · `PRIVATE / PRE-PRODUCTION`
-
-An exploration game built around cats, using Godot. A place to experiment with movement and interactive systems.
-
-These personal projects are in development, with private source repositories. The covers are identity artwork, not application screenshots.
+<p><img src="assets/projects/two-paws-mark.png" width="28" height="28" alt="Two Paws cat mark"> <strong>Two Paws</strong> — A cat-driven exploration game.<br>
+<code>PRIVATE / PRE-PRODUCTION</code></p>
 
 ### // NOW
 
-- Working with data, automation and software.
-- Building personal tools and AI experiments.
-- Deepening my software engineering and AI practice through personal computing and interactive systems.
-
-### // CONNECT
-
-[Find me on GitHub](https://github.com/616byron)
+- Working with data and automation.
+- Deepening software engineering and AI practice.
+- Preparing experiments for public, documented work.
 
 ---
 
-<sub>Luciano Barbosa · Brazil · // 616</sub>
+Luciano Barbosa · Brazil · **// 616**

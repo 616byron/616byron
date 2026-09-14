@@ -12,7 +12,13 @@ if (fonts.length !== 3) {
   throw new Error('The source artwork uses Segoe UI, Segoe UI Bold and Consolas. Install those fonts or deliberately update the SVG font families before rendering.');
 }
 
-for (const folder of ['hero', 'projects']) {
+const requestedFolders = process.argv.slice(2);
+const assetFolders = ['hero', 'projects', 'modules'];
+if (requestedFolders.some(folder => !assetFolders.includes(folder))) {
+  throw new Error('Choose asset folders: hero, projects, modules. Omit arguments to render all.');
+}
+
+for (const folder of requestedFolders.length ? requestedFolders : assetFolders) {
   const directory = path.join(root, 'assets', folder);
   for (const file of fs.readdirSync(directory).filter(file => file.endsWith('.svg')).sort()) {
     const svg = fs.readFileSync(path.join(directory, file), 'utf8');

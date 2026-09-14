@@ -12,7 +12,7 @@ Use `templates/PROJECT_README_TEMPLATE.md` when preparing an individual project'
 
 ## Edit artwork
 
-The SVG files in `assets/hero/` and `assets/projects/` are the editable source of truth. They contain real text and vector geometry, without embedded raster assets, scripts or remote resources.
+The SVG files in `assets/hero/`, `assets/projects/` and `assets/modules/` are the editable source of truth. They contain real text and vector geometry, without embedded raster assets, scripts or remote resources.
 
 The PNG files are committed so GitHub does not need a build step or an external rendering service. Regenerate them on a machine with Segoe UI, Segoe UI Bold and Consolas:
 
@@ -20,6 +20,12 @@ The PNG files are committed so GitHub does not need a build step or an external 
 npm ci
 npm run render:assets
 ```
+
+To render only specific folders, use `npm run render:assets -- modules` or `npm run render:assets -- projects modules`. The renderer rejects unknown folder names. No dependency changes are required.
+
+The What I Build panel uses a two-by-two desktop composition and four stacked mobile modules, selected with `<picture>` up to a 1000 px viewport so the text remains readable beside GitHub's sidebar. Keep its complete meaning in the image alt text. The small project marks sit beside native names and statuses; give them short descriptive alt text because GitHub makes images clickable. Full approved project covers remain in the [design reference](DESIGN_DNA.md#artwork-reference).
+
+Keep local previews and verification output outside the public repository. A short public completion report may live in `docs/`; internal audit details and machine paths must stay local.
 
 The renderer uses a small native SVG library. It does not download a browser. On another operating system, deliberately choose available font families in the SVG and update the renderer before generating new PNGs. Do not distribute proprietary font files.
 

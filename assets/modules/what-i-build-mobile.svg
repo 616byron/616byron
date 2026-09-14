@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="576" viewBox="0 0 600 576" role="img" aria-labelledby="title desc">
+  <title id="title">What I build — LB / 616, mobile</title>
+  <desc id="desc">01 Data: operational analysis and insights. 02 Automation: less repetitive work. 03 Software: tools for practical problems. 04 Experiments: AI and interactive systems.</desc>
+  <g fill="#12161C" stroke="#2A323C">
+    <rect x="0.5" y="0.5" width="599" height="131" rx="4"/>
+    <rect x="0.5" y="148.5" width="599" height="131" rx="4"/>
+    <rect x="0.5" y="296.5" width="599" height="131" rx="4"/>
+    <rect x="0.5" y="444.5" width="599" height="131" rx="4"/>
+  </g>
+  <g font-family="Consolas" font-size="36" fill="#F2A93B">
+    <text x="28" y="52">01</text><text x="28" y="200">02</text>
+    <text x="28" y="348">03</text><text x="28" y="496">04</text>
+  </g>
+  <g stroke="#6F8FAF" stroke-width="2"><path d="M91 25V56M91 173V204M91 321V352M91 469V500"/></g>
+  <g font-family="Segoe UI" font-size="36" font-weight="700" fill="#E8E6DF">
+    <text x="114" y="52">DATA</text><text x="114" y="200">AUTOMATION</text>
+    <text x="114" y="348">SOFTWARE</text><text x="114" y="496">EXPERIMENTS</text>
+  </g>
+  <g font-family="Segoe UI" font-size="34" fill="#E8E6DF">
+    <text x="28" y="106">Operational analysis &amp; insights</text>
+    <text x="28" y="254">Less repetitive work</text>
+    <text x="28" y="402">Tools for practical problems</text>
+    <text x="28" y="550">AI &amp; interactive systems</text>
+  </g>
+</svg>

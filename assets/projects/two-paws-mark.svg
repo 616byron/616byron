@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84" role="img" aria-labelledby="title desc">
+  <title id="title">Two Paws — cat mark</title>
+  <desc id="desc">Compact mark derived from the approved Two Paws cover. Identity artwork, not a game screenshot.</desc>
+  <rect x="1" y="1" width="82" height="82" rx="8" fill="#12161C" stroke="#2A323C" stroke-width="2"/>
+  <path d="M17 45L20 17L32 28Q42 24 52 28L64 17L67 45Q65 65 42 69Q19 65 17 45Z" fill="#161B22" stroke="#6F8FAF" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M26 42L33 43M51 43L58 42" stroke="#F2A93B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M38 51H46L42 56Z" fill="#8B949E"/>
+</svg>
