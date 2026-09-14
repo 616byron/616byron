@@ -30,8 +30,10 @@ I work with data analysis, process automation and software, making operational w
 ### // CAPABILITY CONSOLE
 
 <picture>
-  <source media="(max-width: 1000px)" srcset="assets/workstation/capability-console-mobile.png">
-  <img src="assets/workstation/capability-console.png" alt="Connected practice areas. Data: analysis, reporting, transformation. Automation: workflows, scripting, productivity. Software: tools, apps, systems. AI and experiments: agents, personal computing, interactive systems." width="100%">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 1000px)" srcset="assets/workstation/capability-console-mobile.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/workstation/capability-console.png">
+  <source media="(max-width: 1000px)" srcset="assets/workstation/capability-console-motion-mobile.png">
+  <img src="assets/workstation/capability-console-motion.png" alt="Connected practice areas. Data: analysis, reporting, transformation. Automation: workflows, scripting, productivity. Software: tools, apps, systems. AI and experiments: agents, personal computing, interactive systems." width="100%">
 </picture>
 
 Understand the data → simplify the workflow → build the tool → test it in context.
@@ -51,11 +53,11 @@ Understand the data → simplify the workflow → build the tool → test it in 
 <a href="#-project-registry">
 <picture>
   <source media="(max-width: 1000px)" srcset="assets/workstation/current-focus-mobile.png">
-  <img src="assets/workstation/current-focus.png" alt="Open project registry. Current focus: Personal Project OS — architecture / planning; Guia IA — in development; Two Paws — pre-production. Workstation, open-book and cat identities." width="100%">
+  <img src="assets/workstation/current-focus.png" alt="Open project registry. Primary: Digital Life Lab — long-term flagship; Personal Project OS — core architecture. Active: Guia IA — in development; Two Paws — pre-production. Research, workstation, open-book and cat identities." width="100%">
 </picture>
 </a>
 
-<p><a href="#personal-project-os">Personal Project OS</a> · architecture / planning<br><a href="#guia-ia">Guia IA</a> · in development<br><a href="#two-paws">Two Paws</a> · pre-production</p>
+<p><a href="#digital-life-lab">Digital Life Lab</a> · flagship / long-term<br><a href="#personal-project-os">Personal Project OS</a> · architecture / planning<br><a href="#guia-ia">Guia IA</a> · in development<br><a href="#two-paws">Two Paws</a> · pre-production</p>
 
 ### // PROJECT REGISTRY
 

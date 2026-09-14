@@ -9,7 +9,7 @@
       "description": "A long-term artificial-life laboratory exploring digital organisms, AI, agents and simulation.",
       "areas": "Artificial life · AI · Agents · Simulation · Research tools",
       "note": "Scientific Partner is a research subsystem within Digital Life Lab.",
-      "focus": false
+      "focus": true
     },
     {
       "id": "personal-project-os",

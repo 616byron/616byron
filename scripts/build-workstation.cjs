@@ -29,21 +29,24 @@ function save(name,w,h,title,body){const s=svg(w,h,title,body);fs.writeFileSync(
 function crc32(b){let c=0xffffffff;for(const n of b){c^=n;for(let k=0;k<8;k++)c=(c>>>1)^((c&1)?0xedb88320:0);}return(c^0xffffffff)>>>0;}
 function chunk(type,data){const t=Buffer.from(type),n=Buffer.alloc(4),crc=Buffer.alloc(4);n.writeUInt32BE(data.length);crc.writeUInt32BE(crc32(Buffer.concat([t,data])));return Buffer.concat([n,t,data,crc]);}
 function chunks(png){let i=8,a=[];while(i<png.length){const n=png.readUInt32BE(i),t=png.toString('ascii',i+4,i+8);a.push({t,d:png.subarray(i+8,i+8+n)});i+=12+n;}return a;}
-function animate(name,w,h,on,off){
- const frames=[raster(on),raster(off),raster(on)].map(chunks),actl=Buffer.alloc(8);actl.writeUInt32BE(3);actl.writeUInt32BE(1,4);
+function animate(name,w,h,sequence){
+ const frames=sequence.map(frame=>chunks(raster(frame.svg))),actl=Buffer.alloc(8);actl.writeUInt32BE(frames.length);actl.writeUInt32BE(1,4);
  let result=[frames[0][0].d],seq=0;
  result=[Buffer.from([137,80,78,71,13,10,26,10]),chunk('IHDR',result[0]),chunk('acTL',actl)];
- frames.forEach((a,i)=>{const ctl=Buffer.alloc(26);ctl.writeUInt32BE(seq++);ctl.writeUInt32BE(w,4);ctl.writeUInt32BE(h,8);ctl.writeUInt16BE(1,20);ctl.writeUInt16BE(1,22);result.push(chunk('fcTL',ctl));for(const {t,d}of a)if(t==='IDAT'){if(!i)result.push(chunk('IDAT',d));else{const number=Buffer.alloc(4);number.writeUInt32BE(seq++);result.push(chunk('fdAT',Buffer.concat([number,d])));}}});
+ frames.forEach((a,i)=>{const ctl=Buffer.alloc(26);ctl.writeUInt32BE(seq++);ctl.writeUInt32BE(w,4);ctl.writeUInt32BE(h,8);ctl.writeUInt16BE(sequence[i].ms,20);ctl.writeUInt16BE(1000,22);result.push(chunk('fcTL',ctl));for(const {t,d}of a)if(t==='IDAT'){if(!i)result.push(chunk('IDAT',d));else{const number=Buffer.alloc(4);number.writeUInt32BE(seq++);result.push(chunk('fdAT',Buffer.concat([number,d])));}}});
  result.push(chunk('IEND',Buffer.alloc(0)));fs.writeFileSync(path.join(out,name+'.png'),Buffer.concat(result));
 }
 // Desktop identity is the original approved hero, extended by one status rail.
 const original=fs.readFileSync(path.join(root,'assets/hero/github-profile-banner.svg'),'utf8');
-let boot=original.replace('height="440"','height="540"').replace('viewBox="0 0 1400 440"','viewBox="0 0 1400 540"').replace('</svg>',`${box(.5,440,1399,99,C.s)}${M(48,496,'616://WORKSPACE',29,C.a)}${M(418,496,'> data / automation / software',29,C.t)}${box(987,477,15,25,C.a,C.a)}${M(1154,496,'BUILDING',27,C.m)}</svg>`);
+let boot=original.replace('height="440"','height="540"').replace('viewBox="0 0 1400 440"','viewBox="0 0 1400 540"').replace('</svg>',`${box(.5,440,1399,99,C.s)}${M(48,496,'616://WORKSPACE',29,C.a)}${M(418,496,'> workspace ready',29,C.t)}${box(987,477,15,25,C.a,C.a)}${M(1154,496,'BUILDING',27,C.m)}</svg>`);
 fs.writeFileSync(path.join(out,'boot-static.svg'),boot);fs.writeFileSync(path.join(out,'boot-static.png'),raster(boot));
-animate('boot',1400,540,boot,boot.replace(box(987,477,15,25,C.a,C.a),box(987,477,15,25,C.s,C.s)));
+const bootSteps=['> initializing profile','> loading project registry','> connecting data systems','> workspace ready'];
+animate('boot',1400,540,bootSteps.map(line=>({svg:boot.replace(E('> workspace ready'),E(line)),ms:800})));
 let bm=M(32,48,'PERSONAL SOFTWARE LAB',31,C.m)+L(32,77,568,77)+T(27,213,'LB',119,C.t,700)+T(194,206,'/',95,C.m)+T(255,213,'616',119,C.a,700)+T(32,284,'LUCIANO BARBOSA',42,C.t,600)+T(32,344,'DATA · SOFTWARE',36,C.m)+T(32,390,'ARTIFICIAL INTELLIGENCE',35,C.m)+L(32,425,568,425)+T(32,481,'Building useful systems,',36)+T(32,528,'strange experiments and',36)+T(32,575,'things I actually want to use.',36)+M(32,638,'BRAZIL',31,C.m)+M(424,638,'// 616',31,C.a)+box(.5,670,599,129,C.s)+M(32,717,'616://WORKSPACE',31,C.a)+M(32,766,'> BUILDING',32,C.t)+box(244,742,17,28,C.a,C.a);
+bm=bm.replace(M(32,766,'> BUILDING',32,C.t)+box(244,742,17,28,C.a,C.a),M(32,766,'> workspace ready',31,C.t)+box(553,742,15,28,C.a,C.a));
 const mobile=save('boot-static-mobile',600,800,'LB / 616 — Luciano Barbosa. Data, software and artificial intelligence. Building.',bm);
-animate('boot-mobile',600,800,mobile,mobile.replace(box(244,742,17,28,C.a,C.a),box(244,742,17,28,C.s,C.s)));
+const mobileSteps=['> initializing profile','> loading registry','> connecting data','> workspace ready'];
+animate('boot-mobile',600,800,mobileSteps.map(line=>({svg:mobile.replace(E('> workspace ready'),E(line)),ms:800})));
 
 function consoleArt(mobile){
  const w=mobile?600:1200,h=mobile?820:470;
@@ -56,18 +59,27 @@ function consoleArt(mobile){
  if(!mobile)s+=M(30,442,'DATA + AUTOMATION  /  SOFTWARE + EXPERIMENTS',23,C.b);
  return save('capability-console'+(mobile?'-mobile':''),w,h,'Connected practice areas: data, automation, software, AI and experiments.',s);
 }
-consoleArt(false);consoleArt(true);
+for(const isMobile of [false,true]){
+ const base=consoleArt(isMobile),w=isMobile?600:1200,h=isMobile?820:470;
+ const sequence=[0,1,2,3].map(i=>{const y=(isMobile?158:124)+i*(isMobile?165:78);return{svg:base.replace(O(46,y,7,C.a,C.bg),O(46,y,7,C.a,C.a)),ms:500};});
+ sequence.push({svg:base,ms:800});
+ animate('capability-console-motion'+(isMobile?'-mobile':''),w,h,sequence);
+}
 
-// One current-focus surface: computing on the left, editorial/play on the right.
-let f=M(30,46,'616://FOCUS',26,C.a)+M(823,46,'RESEARCH / SOFTWARE / PLAY',24)+L(30,74,1170,74)+box(30,99,558,313,C.s)+box(612,99,558,145,C.s)+box(612,266,558,146,C.up);
-f+=M(56,141,'01 / COMPUTING ENVIRONMENT',24,C.b)+T(54,204,'Personal Project OS',45,C.t,600)+M(56,251,'ARCHITECTURE / PLANNING',24,C.a)+group(322,285,.75,icon('os'))+T(56,300,'Connect projects.',27,C.m)+T(56,340,'Keep their identities.',27,C.m);
-f+=group(996,115,.8,icon('book'))+M(640,132,'02 / KNOWLEDGE',23,C.b)+T(638,181,'Guia IA',43,C.t,600)+M(640,218,'IN DEVELOPMENT',24,C.b);
-f+=group(997,272,.77,icon('cat'))+M(640,301,'03 / INTERACTIVE',23,C.a)+T(638,350,'Two Paws',43,C.t,600)+M(640,389,'PRE-PRODUCTION',24,C.a);
-save('current-focus',1200,438,'Current focus: Personal Project OS, architecture / planning; Guia IA, development; Two Paws, pre-production.',f);
-let fm=M(28,47,'616://FOCUS',31,C.a)+L(28,77,572,77)+box(28,104,544,294,C.s)+M(50,149,'COMPUTING ENVIRONMENT',28,C.b)+T(48,206,'Personal Project OS',47,C.t,600)+M(50,252,'ARCHITECTURE / PLANNING',28,C.a)+T(50,308,'Connect projects.',33,C.m)+T(50,354,'Keep their identities.',33,C.m)+group(389,282,.53,icon('os'));
-fm+=box(28,422,544,190,C.s)+M(50,465,'KNOWLEDGE',29,C.b)+T(48,522,'Guia IA',47,C.t,600)+M(50,572,'IN DEVELOPMENT',31,C.b)+group(423,448,.76,icon('book'));
-fm+=box(28,636,544,197,C.up)+M(50,679,'INTERACTIVE',29,C.a)+T(48,736,'Two Paws',47,C.t,600)+M(50,786,'PRE-PRODUCTION',31,C.a)+group(424,660,.75,icon('cat'));
-save('current-focus-mobile',600,859,'Current focus: Personal Project OS, Guia IA and Two Paws.',fm);
+// The flagship and computing environment lead; editorial/play remain smaller.
+let f=M(30,46,'616://FOCUS',26,C.a)+M(823,46,'RESEARCH / SOFTWARE / PLAY',24)+L(30,74,1170,74)+M(30,114,'PRIMARY / CORE',24,C.a)+L(275,107,1170,107);
+f+=box(30,137,648,287,C.s)+M(56,177,'01 / RESEARCH',24,C.b)+T(54,240,'Digital Life Lab',56,C.t,600)+M(56,283,'FLAGSHIP / LONG-TERM',26,C.a)+T(56,344,'Artificial life. AI agents.',29,C.m)+T(56,387,'Questions worth simulating.',29,C.m)+group(514,286,.64,icon('life'));
+f+=box(702,137,468,287,C.s)+M(728,177,'02 / COMPUTING',24,C.b)+T(726,240,'Personal Project OS',39,C.t,600)+M(728,283,'CORE / ARCHITECTURE',25,C.a)+group(728,318,.57,icon('os'))+T(920,350,'Connect projects.',24,C.m)+T(920,386,'Keep identities.',24,C.m);
+f+=M(30,472,'ACTIVE',24,C.b)+L(150,465,1170,465)+box(30,494,558,140,C.s)+box(612,494,558,140,C.up);
+f+=M(56,527,'03 / KNOWLEDGE',23,C.b)+T(54,576,'Guia IA',43,C.t,600)+M(56,613,'IN DEVELOPMENT',24,C.b)+group(440,507,.8,icon('book'));
+f+=M(640,527,'04 / INTERACTIVE',23,C.a)+T(638,576,'Two Paws',43,C.t,600)+M(640,613,'PRE-PRODUCTION',24,C.a)+group(997,496,.77,icon('cat'));
+save('current-focus',1200,660,'Primary: Digital Life Lab, long-term flagship; Personal Project OS, core architecture. Active: Guia IA, development; Two Paws, pre-production.',f);
+let fm=M(28,47,'616://FOCUS',31,C.a)+L(28,77,572,77)+M(28,127,'PRIMARY / CORE',29,C.a);
+fm+=box(28,151,544,287,C.s)+M(50,193,'01 / RESEARCH',28,C.b)+T(48,255,'Digital Life Lab',51,C.t,600)+M(50,305,'FLAGSHIP / LONG-TERM',29,C.a)+T(50,357,'Artificial life.',33,C.m)+T(50,401,'AI agents. Simulation.',33,C.m)+group(431,329,.58,icon('life'));
+fm+=box(28,460,544,238,C.s)+M(50,503,'02 / COMPUTING',28,C.b)+T(48,560,'Personal Project OS',47,C.t,600)+M(50,607,'CORE / ARCHITECTURE',29,C.a)+T(50,658,'Connect projects.',33,C.m)+group(415,624,.45,icon('os'));
+fm+=M(28,751,'ACTIVE',29,C.b)+box(28,776,544,172,C.s)+M(50,816,'03 / KNOWLEDGE',28,C.b)+T(48,871,'Guia IA',47,C.t,600)+M(50,916,'IN DEVELOPMENT',31,C.b)+group(423,795,.76,icon('book'));
+fm+=box(28,971,544,177,C.up)+M(50,1013,'04 / INTERACTIVE',28,C.a)+T(48,1067,'Two Paws',47,C.t,600)+M(50,1115,'PRE-PRODUCTION',31,C.a)+group(424,990,.75,icon('cat'));
+save('current-focus-mobile',600,1176,'Primary: Digital Life Lab and Personal Project OS. Active: Guia IA and Two Paws.',fm);
 
 let lab=M(32,47,'616://LIFE-LAB',26,C.a)+M(905,47,'LONG-TERM FLAGSHIP',23)+L(32,74,1168,74)+T(30,151,'Digital Life Lab',61,C.t,600)+T(33,205,'Artificial life. Digital organisms.',31,C.m)+T(33,250,'Questions worth simulating.',31,C.m)+M(33,316,'AI / AGENTS / SIMULATION',25,C.b)+group(835,96,1.13,icon('life'))+P('M748 119V279M730 119H748M730 279H748',C.line)+M(790,325,'SCIENTIFIC PARTNER',23,C.a);
 save('digital-life-lab',1200,352,'Digital Life Lab — artificial life, agents and simulation. Scientific Partner is its companion subsystem. Conceptual artwork.',lab);
@@ -77,4 +89,4 @@ save('presence-mark',180,170,'Presença IA — face and expression.',group(10,7,
 let footer=L(30,20,1170,20,C.line)+L(30,20,172,20,C.a,3)+M(30,69,'LUCIANO BARBOSA / BRAZIL',25,C.m)+O(780,61,5,C.a,C.a)+M(799,69,'BUILDING',25,C.a)+T(1069,69,'// 616',27,C.a,600);
 save('footer',1200,101,'Luciano Barbosa · Brazil · Building · 616.',footer);
 save('footer-mobile',600,164,'Luciano Barbosa · Brazil · Building · 616.',L(28,20,572,20)+L(28,20,128,20,C.a,3)+M(28,70,'LUCIANO BARBOSA',31,C.t)+M(28,123,'BRAZIL / BUILDING',29,C.m)+M(456,123,'616',31,C.a));
-console.log('Built workstation SVG/PNG assets and one 3-second APNG boot animation per viewport.');
+console.log('Built workstation assets: boot 3.2 seconds; capability activation 2.8 seconds; each plays once.');
