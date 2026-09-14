@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="540" viewBox="0 0 1400 540" role="img" aria-labelledby="title desc">
+  <title id="title">LB / 616 - Luciano Barbosa</title>
+  <desc id="desc">Data, software and artificial intelligence. A graphite workstation with warm amber typography and a modular technical diagram.</desc>
+  <rect width="1400" height="440" fill="#0B0D10"/>
+  <rect x="0.5" y="0.5" width="1399" height="439" rx="0" fill="#0B0D10" stroke="#2A323C"/>
+  <path d="M48 83H1352" stroke="#2A323C" stroke-width="1"/>
+  <text x="48" y="53" font-family="Consolas" font-size="20" font-weight="400" letter-spacing="2" fill="#8B949E">PERSONAL SOFTWARE LAB</text>
+  <text x="1136" y="53" font-family="Consolas" font-size="19" font-weight="400" letter-spacing="2" fill="#F2A93B">BUILDING</text>
+  <circle cx="1116" cy="46" r="4" fill="#F2A93B"/>
+  <text x="43" y="202" font-family="Segoe UI" font-size="115" font-weight="700" letter-spacing="-4" fill="#E8E6DF">LB</text>
+  <text x="205" y="198" font-family="Segoe UI" font-size="92" font-weight="400" letter-spacing="0" fill="#8B949E">/</text>
+  <text x="270" y="202" font-family="Segoe UI" font-size="115" font-weight="700" letter-spacing="-5" fill="#F2A93B">616</text>
+  <text x="48" y="264" font-family="Segoe UI" font-size="34" font-weight="600" letter-spacing="3" fill="#E8E6DF">LUCIANO BARBOSA</text>
+  <text x="49" y="309" font-family="Segoe UI" font-size="26" font-weight="400" letter-spacing="0.7" fill="#8B949E">DATA · SOFTWARE · ARTIFICIAL INTELLIGENCE</text>
+  <text x="48" y="368" font-family="Segoe UI" font-size="25" font-weight="400" letter-spacing="0" fill="#E8E6DF">Building useful systems, strange experiments</text>
+  <text x="48" y="403" font-family="Segoe UI" font-size="25" font-weight="400" letter-spacing="0" fill="#E8E6DF">and things I actually want to use.</text>
+  <path d="M966 113L966 402" stroke="#2A323C" stroke-width="1"/>
+  <circle cx="1002" cy="130" r="1" fill="#2A323C"/>
+  <circle cx="1002" cy="166" r="1" fill="#2A323C"/>
+  <circle cx="1002" cy="202" r="1" fill="#2A323C"/>
+  <circle cx="1002" cy="238" r="1" fill="#2A323C"/>
+  <circle cx="1002" cy="274" r="1" fill="#2A323C"/>
+  <circle cx="1002" cy="310" r="1" fill="#2A323C"/>
+  <circle cx="1002" cy="346" r="1" fill="#2A323C"/>
+  <circle cx="1038" cy="130" r="1" fill="#2A323C"/>
+  <circle cx="1038" cy="166" r="1" fill="#2A323C"/>
+  <circle cx="1038" cy="202" r="1" fill="#2A323C"/>
+  <circle cx="1038" cy="238" r="1" fill="#2A323C"/>
+  <circle cx="1038" cy="274" r="1" fill="#2A323C"/>
+  <circle cx="1038" cy="310" r="1" fill="#2A323C"/>
+  <circle cx="1038" cy="346" r="1" fill="#2A323C"/>
+  <circle cx="1074" cy="130" r="1" fill="#2A323C"/>
+  <circle cx="1074" cy="166" r="1" fill="#2A323C"/>
+  <circle cx="1074" cy="202" r="1" fill="#2A323C"/>
+  <circle cx="1074" cy="238" r="1" fill="#2A323C"/>
+  <circle cx="1074" cy="274" r="1" fill="#2A323C"/>
+  <circle cx="1074" cy="310" r="1" fill="#2A323C"/>
+  <circle cx="1074" cy="346" r="1" fill="#2A323C"/>
+  <circle cx="1110" cy="130" r="1" fill="#2A323C"/>
+  <circle cx="1110" cy="166" r="1" fill="#2A323C"/>
+  <circle cx="1110" cy="202" r="1" fill="#2A323C"/>
+  <circle cx="1110" cy="238" r="1" fill="#2A323C"/>
+  <circle cx="1110" cy="274" r="1" fill="#2A323C"/>
+  <circle cx="1110" cy="310" r="1" fill="#2A323C"/>
+  <circle cx="1110" cy="346" r="1" fill="#2A323C"/>
+  <circle cx="1146" cy="130" r="1" fill="#2A323C"/>
+  <circle cx="1146" cy="166" r="1" fill="#2A323C"/>
+  <circle cx="1146" cy="202" r="1" fill="#2A323C"/>
+  <circle cx="1146" cy="238" r="1" fill="#2A323C"/>
+  <circle cx="1146" cy="274" r="1" fill="#2A323C"/>
+  <circle cx="1146" cy="310" r="1" fill="#2A323C"/>
+  <circle cx="1146" cy="346" r="1" fill="#2A323C"/>
+  <circle cx="1182" cy="130" r="1" fill="#2A323C"/>
+  <circle cx="1182" cy="166" r="1" fill="#2A323C"/>
+  <circle cx="1182" cy="202" r="1" fill="#2A323C"/>
+  <circle cx="1182" cy="238" r="1" fill="#2A323C"/>
+  <circle cx="1182" cy="274" r="1" fill="#2A323C"/>
+  <circle cx="1182" cy="310" r="1" fill="#2A323C"/>
+  <circle cx="1182" cy="346" r="1" fill="#2A323C"/>
+  <circle cx="1218" cy="130" r="1" fill="#2A323C"/>
+  <circle cx="1218" cy="166" r="1" fill="#2A323C"/>
+  <circle cx="1218" cy="202" r="1" fill="#2A323C"/>
+  <circle cx="1218" cy="238" r="1" fill="#2A323C"/>
+  <circle cx="1218" cy="274" r="1" fill="#2A323C"/>
+  <circle cx="1218" cy="310" r="1" fill="#2A323C"/>
+  <circle cx="1218" cy="346" r="1" fill="#2A323C"/>
+  <circle cx="1254" cy="130" r="1" fill="#2A323C"/>
+  <circle cx="1254" cy="166" r="1" fill="#2A323C"/>
+  <circle cx="1254" cy="202" r="1" fill="#2A323C"/>
+  <circle cx="1254" cy="238" r="1" fill="#2A323C"/>
+  <circle cx="1254" cy="274" r="1" fill="#2A323C"/>
+  <circle cx="1254" cy="310" r="1" fill="#2A323C"/>
+  <circle cx="1254" cy="346" r="1" fill="#2A323C"/>
+  <circle cx="1290" cy="130" r="1" fill="#2A323C"/>
+  <circle cx="1290" cy="166" r="1" fill="#2A323C"/>
+  <circle cx="1290" cy="202" r="1" fill="#2A323C"/>
+  <circle cx="1290" cy="238" r="1" fill="#2A323C"/>
+  <circle cx="1290" cy="274" r="1" fill="#2A323C"/>
+  <circle cx="1290" cy="310" r="1" fill="#2A323C"/>
+  <circle cx="1290" cy="346" r="1" fill="#2A323C"/>
+  <circle cx="1326" cy="130" r="1" fill="#2A323C"/>
+  <circle cx="1326" cy="166" r="1" fill="#2A323C"/>
+  <circle cx="1326" cy="202" r="1" fill="#2A323C"/>
+  <circle cx="1326" cy="238" r="1" fill="#2A323C"/>
+  <circle cx="1326" cy="274" r="1" fill="#2A323C"/>
+  <circle cx="1326" cy="310" r="1" fill="#2A323C"/>
+  <circle cx="1326" cy="346" r="1" fill="#2A323C"/>
+  <rect x="1040" y="148" width="112" height="80" rx="4" fill="#12161C" stroke="#2A323C"/>
+  <rect x="1178" y="148" width="118" height="80" rx="4" fill="#161B22" stroke="#2A323C"/>
+  <rect x="1040" y="255" width="256" height="62" rx="4" fill="#12161C" stroke="#2A323C"/>
+  <path d="M1060 172H1100" stroke="#F2A93B" stroke-width="3"/>
+  <path d="M1060 191H1127" stroke="#2A323C" stroke-width="1"/>
+  <path d="M1060 205H1112" stroke="#2A323C" stroke-width="1"/>
+  <path d="M1203 198L1220 181L1238 198L1257 179L1275 198" fill="none" stroke="#6F8FAF" stroke-width="2"/>
+  <path d="M1096 228V242H1237V228M1167 242V255" fill="none" stroke="#6F8FAF"/>
+  <circle cx="1065" cy="286" r="5" fill="#F2A93B"/>
+  <path d="M1086 286H1218" stroke="#2A323C" stroke-width="1"/>
+  <path d="M1233 276L1233 296" stroke="#F2A93B" stroke-width="2"/>
+  <path d="M1243 280L1243 296" stroke="#F2A93B" stroke-width="2"/>
+  <path d="M1253 271L1253 296" stroke="#F2A93B" stroke-width="2"/>
+  <path d="M1263 283L1263 296" stroke="#F2A93B" stroke-width="2"/>
+  <text x="1040" y="390" font-family="Consolas" font-size="18" font-weight="400" letter-spacing="2" fill="#8B949E">BRAZIL</text>
+  <text x="1224" y="390" font-family="Consolas" font-size="18" font-weight="400" letter-spacing="0" fill="#F2A93B">// 616</text>
+  <path d="M48 439H220" stroke="#F2A93B" stroke-width="2"/>
+<rect x="0.5" y="440" width="1399" height="99" rx="0" fill="#12161C" stroke="#2A323C"/><text x="48" y="496" font-family="Consolas" font-size="29" font-weight="400" fill="#F2A93B">616://WORKSPACE</text><text x="418" y="496" font-family="Consolas" font-size="29" font-weight="400" fill="#E8E6DF">&gt; data / automation / software</text><rect x="987" y="477" width="15" height="25" rx="0" fill="#F2A93B" stroke="#F2A93B"/><text x="1154" y="496" font-family="Consolas" font-size="27" font-weight="400" fill="#8B949E">BUILDING</text></svg>

@@ -1,92 +1,186 @@
+<a href="#-system-profile">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero/github-profile-banner-mobile.png">
-  <img src="assets/hero/github-profile-banner.png" alt="LB / 616 — Luciano Barbosa. Data · Software · Artificial Intelligence. Building useful systems, strange experiments and things I actually want to use." width="100%">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/workstation/boot-static-mobile.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/workstation/boot-static.png">
+  <source media="(max-width: 600px)" srcset="assets/workstation/boot-mobile.png">
+  <img src="assets/workstation/boot.png" alt="LB / 616 — Luciano Barbosa. Personal Software Lab. Data · Software · Artificial Intelligence. Building useful systems, strange experiments and things I actually want to use. Brazil. Open system profile." width="100%">
 </picture>
+</a>
 
-### // HELLO
+<p align="center">
+<a href="#-system-profile">PROFILE</a> ·
+<a href="#-capability-console">CAPABILITIES</a> ·
+<a href="#-project-registry">PROJECTS</a> ·
+<a href="#-professional-practice">DATA</a> ·
+<a href="#-now">NOW</a>
+</p>
 
-Hi, I'm Luciano. I work with data analysis, process automation and software, building tools that make operational work simpler.
+### // SYSTEM PROFILE
 
-Outside professional work, I connect a personal ecosystem of research, software, games and experiments. Each project keeps its own purpose and identity, with a shared way of building: **LB / 616**.
+<table>
+<tr><td><code>NAME</code></td><td>Luciano Barbosa</td></tr>
+<tr><td><code>BASE</code></td><td>Brazil</td></tr>
+<tr><td><code>WORK</code></td><td><strong>Data / Automation</strong></td></tr>
+<tr><td><code>BUILD</code></td><td>Software / AI</td></tr>
+<tr><td><code>MODE</code></td><td>Building &amp; experimenting</td></tr>
+</table>
 
-### // WHAT I BUILD
+I work with data analysis, process automation and software, making operational work simpler. My personal lab explores AI, computing and interactive systems.
 
-<picture>
-  <source media="(max-width: 1000px)" srcset="assets/modules/what-i-build-mobile.png">
-  <img src="assets/modules/what-i-build.png" alt="01 / Data — operational analysis and insights. 02 / Automation — less repetitive work. 03 / Software — tools for practical problems. 04 / Experiments — AI and interactive systems." width="100%">
-</picture>
-
-### // TOOLBOX
-
-<p><strong>DATA &amp; AUTOMATION</strong><br>
-Excel · Power Query · SQL<br>
-Google Apps Script · VBA · Python</p>
-
-<p><strong>SOFTWARE &amp; AI</strong><br>
-TypeScript · JavaScript · React<br>
-Git · AI Tooling · Godot</p>
-
-### // SELECTED WORK
-
-<p><strong>DATA / AUTOMATION</strong><br>
-My professional practice: operational data analysis, reporting and data transformation; spreadsheet and workflow automation; internal productivity tools.</p>
-
-Professional work stays private. [PUBLIC LABS → PLANNED](docs/DATA_AUTOMATION_PORTFOLIO_PLAN.md), using synthetic data.
-
-**SOFTWARE / AI / EXPERIMENTS** — [Explore the project ecosystem ↓](#-616-project-registry).
-
-### // 616 PROJECT REGISTRY
-
-Independent projects, connected by curiosity, tools and a shared design DNA. This is the ecosystem map; current focus comes next.
+### // CAPABILITY CONSOLE
 
 <picture>
-  <source media="(max-width: 1000px)" srcset="assets/projects/project-registry-mobile.png">
-  <img src="assets/projects/project-registry.png" alt="616 Project Registry. Core: Digital Life Lab — long-term artificial-life vision, stage unverified, with Scientific Partner as a companion subsystem; Personal Project OS — research and architecture. Software: Guia IA — in development. Interactive: Two Paws — pre-production; Ruptura — prototype. Lab: Mini Chappie — working name, stage unverified; Presença IA — rig experiment; Chappie Local — prototype. Research: Career OS — research and planning." width="100%">
+  <source media="(max-width: 1000px)" srcset="assets/workstation/capability-console-mobile.png">
+  <img src="assets/workstation/capability-console.png" alt="Connected practice areas. Data: analysis, reporting, transformation. Automation: workflows, scripting, productivity. Software: tools, apps, systems. AI and experiments: agents, personal computing, interactive systems." width="100%">
 </picture>
-
-Ideas and development stages, reviewed September 2026. Digital Life Lab and Mini Chappie describe intended directions; their current files and implementation still need verification. Mini Chappie is a working name. Project source remains private.
 
 <details>
-<summary>Project ideas &amp; stage notes — text version</summary>
+<summary><strong>TRACE / operational workflow</strong></summary>
 
-**CORE**
+Understand the data → simplify the workflow → build the tool → test it in context.
 
-- **Digital Life Lab** — A long-term artificial-life laboratory for digital organisms, AI, agents, simulation and research tools. **Stage unverified.** Scientific Partner belongs within this vision as a companion research subsystem; its implementation is also unverified.
-- **Personal Project OS** — A personal computing environment designed to connect independent projects while preserving their identities. **Research / architecture**; implementation has not started.
-
-**SOFTWARE / INTERACTIVE**
-
-- **Guia IA** — A practical Brazilian guide to working with modern AI, using React and TypeScript. **In development.**
-- **Two Paws** — A cat-driven exploration game built around interactive systems in Godot. **Pre-production**, with local gameplay prototypes.
-- **Ruptura** — An original platform / arena fighter exploring combat systems and worldbuilding in Godot. **Local prototype**; no public release verified.
-
-**LAB**
-
-- **Mini Chappie** — The idea of a compact physical robot companion with local AI and personality. **Stage and official name unverified.** No hardware implementation is claimed.
-- **Presença IA** — An animated visual presence for AI, exploring face, gaze and expression in Godot. **Rig experiment.** The inspected files use the provisional name *Local AI Presence* and a 2D rig; 3D and live AI integration are not verified.
-- **Chappie Local** — A personal local AI assistant with conversation, memory and controlled tools. **Prototype**, with a later rebuild plan; full desktop validation remains pending.
-
-**RESEARCH**
-
-- **Career OS** — A personal career system organized around evidence and learning. **Research / planning**; implementation has not started.
+Data analysis, reporting and transformation; workflow scripting; practical software; AI and interactive experiments.
 
 </details>
 
-### // CURRENTLY BUILDING
+### // PROFESSIONAL TOOLCHAIN
+
+<details open>
+<summary><strong>01 / DATA &amp; AUTOMATION</strong> · toolset</summary>
+
+<p><strong>Data:</strong> Excel · Power Query · SQL<br><strong>Scripting:</strong> Google Apps Script · VBA · Python</p>
+
+</details>
+
+<details open>
+<summary><strong>02 / SOFTWARE &amp; AI</strong> · toolset</summary>
+
+<p><strong>Languages:</strong> TypeScript · JavaScript<br><strong>Tools:</strong> React · Git · AI Tooling · Godot</p>
+
+</details>
+
+### // CURRENT FOCUS
+
+<a href="#-project-registry">
+<picture>
+  <source media="(max-width: 1000px)" srcset="assets/workstation/current-focus-mobile.png">
+  <img src="assets/workstation/current-focus.png" alt="Open project registry. Current focus: Personal Project OS — research / architecture; Guia IA — in development; Two Paws — pre-production. Workstation, open-book and cat identities." width="100%">
+</picture>
+</a>
+
+<p><a href="#personal-project-os">Personal Project OS</a> · research / architecture<br><a href="#guia-ia">Guia IA</a> · in development<br><a href="#two-paws">Two Paws</a> · pre-production</p>
+
+### // PROJECT REGISTRY
+
+Explore the records.
+
+**CORE / FLAGSHIP**
+
+<a name="digital-life-lab"></a>
+<details open>
+<summary><strong>01 / DIGITAL LIFE LAB</strong><br>FLAGSHIP · STAGE UNVERIFIED</summary>
 
 <picture>
-  <source media="(max-width: 1000px)" srcset="assets/projects/currently-building-mobile.png">
-  <img src="assets/projects/currently-building.png" alt="Current focus: Guia IA — practical AI education, private / in development. Two Paws — cat-driven exploration, private / pre-production." width="100%">
+  <source media="(max-width: 1000px)" srcset="assets/workstation/digital-life-lab-mobile.png">
+  <img src="assets/workstation/digital-life-lab.png" alt="Digital Life Lab — long-term flagship vision for artificial life, digital organisms, AI, agents and simulation. Conceptual scientific diagram." width="100%">
 </picture>
 
-**Guia IA** — practical AI education · **Two Paws** — gameplay prototyping.
+Artificial life, AI agents and simulation.
+
+<details>
+<summary><strong>└ Scientific Partner</strong> · research subsystem</summary>
+
+A companion for research within Digital Life Lab. Part of the same vision; implementation is unverified.
+
+</details>
+
+<sub>Direction confirmed; current source pending verification.</sub>
+
+</details>
+
+<a name="personal-project-os"></a>
+<details>
+<summary><strong>02 / PERSONAL PROJECT OS</strong><br>CORE · RESEARCH / ARCHITECTURE</summary>
+
+A personal computing environment to connect projects without absorbing them.
+
+**Tracks:** project registry · developer tools · AI · local-first systems.<br>
+**Stage:** architecture research and planning; implementation has not started.
+
+</details>
+
+**SOFTWARE / INTERACTIVE**
+
+<a name="guia-ia"></a>
+<details>
+<summary><strong>03 / GUIA IA</strong><br>PRIVATE · IN DEVELOPMENT</summary>
+
+<img src="assets/projects/guia-ia-mark.png" alt="Guia IA open-book identity" width="40" height="40">
+
+A practical Brazilian guide to working with modern AI. **Tracks:** education · React · TypeScript.
+
+</details>
+
+<a name="two-paws"></a>
+<details>
+<summary><strong>04 / TWO PAWS</strong><br>PRIVATE · PRE-PRODUCTION</summary>
+
+<img src="assets/projects/two-paws-mark.png" alt="Two Paws cat identity" width="40" height="40">
+
+A cat-driven exploration game. **Tracks:** Godot · game design · interactive systems. Local gameplay prototypes; the full game is in pre-production.
+
+</details>
+
+**LAB / EXPLORATION**
+
+<a name="presenca-ia"></a>
+<details>
+<summary><strong>05 / PRESENÇA IA</strong><br>EXPERIMENT · TECHNOLOGY UNDER REVIEW</summary>
+
+<img src="assets/workstation/presence-mark.png" alt="Presença IA face and expression study" width="64" height="60">
+
+A visual identity for AI through face, gaze and expression. **Tracks:** animation · AI interface · digital presence.
+
+An earlier Godot 2D rig exists. The next visual approach and technology are being reconsidered; 3D and live AI integration are not verified.
+
+</details>
+
+<sub>Stage review: September 2026 · Private source.</sub>
+
+### // PROFESSIONAL PRACTICE
+
+**Data & automation for everyday operations.**
+
+<details>
+<summary><strong>DATA / analysis, reporting &amp; transformation</strong></summary>
+
+Turn operational records into clear reports and useful information. Clean, combine and structure data so people can work with it.
+
+</details>
+
+<details>
+<summary><strong>AUTOMATION / spreadsheets &amp; workflows</strong></summary>
+
+Reduce repetitive tasks with spreadsheet automation, scripts and repeatable workflows.
+
+</details>
+
+<details>
+<summary><strong>TOOLS / productivity &amp; process</strong></summary>
+
+Build practical tools around the way work happens, simplifying routine steps and improving access to information.
+
+</details>
+
+<sub>PUBLIC CASES / <a href="docs/DATA_AUTOMATION_PORTFOLIO_PLAN.md">Synthetic-data labs in preparation →</a></sub>
 
 ### // NOW
 
-- Working with data and automation.
-- Deepening software engineering and AI practice.
-- Preparing experiments for public, documented work.
+Data & automation. Software & AI. Experiments becoming documented work.
 
----
+<a href="#-system-profile">↑ BACK TO PROFILE</a>
 
-Luciano Barbosa · Brazil · **// 616**
+<picture>
+  <source media="(max-width: 1000px)" srcset="assets/workstation/footer-mobile.png">
+  <img src="assets/workstation/footer.png" alt="Luciano Barbosa · Brazil · Building · // 616" width="100%">
+</picture>

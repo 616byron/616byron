@@ -1,56 +1,41 @@
-# LB / 616 — design DNA
+# LB / 616 — Workstation design DNA
 
-A personal software laboratory: calm, precise, curious and visibly made by one person. **616 is a personal signature**, not a company or a fabricated studio.
+This branch is a **Workstation Candidate**, pending Luciano's visual review. The approved LB / 616 identity belongs to a person and a personal software lab.
 
-## Color
+## Palette and typography
 
-| Role | Value | Use |
-|---|---|---|
-| Background | `#0B0D10` | Graphite canvas |
-| Surface | `#12161C` | Instrument panels and artwork |
-| Raised surface | `#161B22` | Secondary modules |
-| Primary text | `#E8E6DF` | Warm, readable typography |
-| Secondary text | `#8B949E` | Supporting labels |
-| Primary accent | `#F2A93B` | Signature, focus and status |
-| Secondary accent | `#6F8FAF` | Diagrams and alternate project identity |
-| Border | `#2A323C` | Fine technical dividers |
+Graphite `#0B0D10`; surfaces `#12161C` and `#161B22`; text `#E8E6DF` and `#8B949E`; amber `#F2A93B`; blue gray `#6F8FAF`; border `#2A323C`. Segoe UI for identity and reading; Consolas for console labels. Fonts are referenced locally, not distributed.
 
-## Composition
+## Structure
 
-- Large typography, generous negative space and restrained technical diagrams.
-- Segoe UI for readable text; Consolas for labels. Fonts are referenced, not redistributed. PNG exports preserve the intended appearance without remote font requests.
-- `//` marks sections. A small BUILDING indicator describes the creative process; it is not live telemetry.
-- The banner has a desktop source at 1400 × 440 and a separately composed mobile source at 700 × 700. The README selects the mobile PNG through `<picture>` below 600 px.
-- Project covers use 1200 × 340 artwork and a shared margin rhythm. Two Paws has a geometric cat and an exploratory path; Guia IA has an open-page motif and editorial rules.
-- These are original covers, not product screenshots or claims of shipped functionality.
-- What I Build uses four numbered workstation modules: two-by-two on desktop and stacked on smaller screens. Amber marks the sequence; warm text carries the meaning.
-- The 616 Project Registry is the ecosystem map. Core projects have the largest panels; software and games use medium entries; lab projects use smaller modules; Career OS has a compact research entry. Scientific Partner is nested inside Digital Life Lab.
-- Each identity has its own motif: cellular networks for Digital Life Lab, a modular workstation for Personal Project OS, an open book for Guia IA, a cat and path for Two Paws, arena geometry for Ruptura, a compact robot for Mini Chappie, facial controls for Presença IA, a terminal for Chappie Local and a structured document for Career OS. Ruptura uses no discarded characters or old art. These are original conceptual diagrams, not product screenshots or evidence of implemented features.
-- The registry uses teal for the scientific vision, blue for computing and education, amber for play and robotics, terracotta for combat, and lavender for digital presence, within the shared graphite canvas and typography. Color supplements names, categories and stage labels.
-- Currently Building is a separate focus selection. It retains Guia IA and Two Paws; membership in the registry does not imply current development activity.
+Boot → System Profile → Capability Console → Professional Toolchain → Current Focus → Project Registry → Professional Practice → Now → footer.
 
-## GitHub constraints
+The hero preserves the original desktop identity from `198bb8d`. Its new status rail blinks a cursor briefly. The mobile hero is composed separately with larger readable text. Data and automation remain explicit in native profile fields and professional practice, following `976c848`.
 
-The dark identity belongs to the images. GitHub controls the page theme, fonts and native Markdown layout. The README uses a single column, native text and fluid images, without custom CSS or rigid tables.
+One connected capability panel replaces separate boxes. A continuous rail, small schematic motifs and rows organize the working domains. It contains no performance readings, proficiency scores or live telemetry.
 
-Project names, ideas and stages also appear as native text in the expandable text version. The registry and focus panel have separately composed mobile sources, selected up to a 1000 px viewport. There are no external badges, statistics cards, trackers, remote fonts or icon services.
+Native metadata, links and disclosure controls create the interface between visual surfaces. Images never replace essential names, stages or navigation. The footer closes the same console language.
 
-## Editorial rules
+## Project hierarchy
 
-Write in short, concrete English. Describe what exists and label the stage. Do not imply a public release, an employer, a qualification, a research result or a production deployment without evidence. Publish only verified public links. Keep private source URLs and internal project documentation out of the profile.
+Digital Life Lab is the long-term flagship and opens by default. Its scientific panel contains original cellular/network geometry; Scientific Partner is a nested research subsystem. Current source and implementation remain unverified.
 
-## Artwork reference
+Personal Project OS has a computing panel in Current Focus and a core record in the registry. Its verified stage is research/architecture, not an implemented OS.
 
-The original covers below remain as identity references. The registry and focus compositions reuse their book and cat geometry. These covers are not product screenshots.
+Guia IA retains the original open-book geometry and editorial identity. Two Paws retains its cat and exploration path. The approved original covers remain in `assets/projects/` as references; Current Focus recomposes their visual motifs rather than displaying a wall of banners.
 
-### Guia IA
+Presença IA is an experiment with technology under review following the owner's current uncertainty about Godot. The prior 2D rig is evidence of an experiment, not of 3D or live AI integration.
 
-<img src="../assets/projects/guia-ia.png" alt="Guia IA — approved LB / 616 cover with an open-book motif." width="100%">
+## Interaction and motion
 
-Editable source: [guia-ia.svg](../assets/projects/guia-ia.svg).
+The README uses supported native HTML/Markdown: anchors, clickable images, tables, details and summary. Twelve disclosures cover toolchain, project records, one nested subsystem and professional practice. A single APNG concept is exported for desktop/mobile: three one-second frames, one play, ending static. Reduced-motion visitors receive static PNGs. No SVG animation or client-side application code is required.
 
-### Two Paws
+The illustrated interfaces are conceptual identity artwork. BUILDING describes Luciano's activity, not a measured service status. GitHub controls the page theme and layout; image panels remain graphite in both themes.
 
-<img src="../assets/projects/two-paws.png" alt="Two Paws — approved LB / 616 cover with a geometric cat and exploration path." width="100%">
+## Historical comparison
 
-Editable source: [two-paws.svg](../assets/projects/two-paws.svg).
+- A / `198bb8d`: retain visual confidence, hero and project identities; add structured exploration.
+- B / `976c848`: retain professional Data + Automation positioning and the complete real toolset.
+- C / `25e5ebe`: replace compact marks and four disconnected capability boxes with a connected console, richer focus surface and explorable project records.
+
+The candidate is a design proposal, not an approved final version.
