@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Two Paws</title>
+  <desc id="desc">Original geometric cat cover for an experimental exploration game. Identity artwork, not a game screenshot.</desc>
+  <rect width="1200" height="340" fill="#0B0D10"/>
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="0" fill="#0B0D10" stroke="#2A323C"/>
+  <rect x="839" y="1" width="360" height="338" rx="0" fill="#12161C" stroke="#12161C"/>
+  <text x="44" y="60" font-family="Consolas" font-size="25" font-weight="400" letter-spacing="1" fill="#F2A93B">// EXPERIMENTAL GAME DEVELOPMENT</text>
+  <text x="40" y="179" font-family="Segoe UI" font-size="82" font-weight="600" letter-spacing="-2" fill="#E8E6DF">Two Paws</text>
+  <text x="44" y="248" font-family="Consolas" font-size="31" font-weight="400" letter-spacing="0" fill="#8B949E">A CAT-DRIVEN EXPLORATION</text>
+  <path d="M44 296H280" stroke="#F2A93B" stroke-width="2"/>
+  <circle cx="1020" cy="172" r="114" fill="none" stroke="#2A323C"/>
+  <circle cx="1020" cy="172" r="90" fill="none" stroke="#2A323C" stroke-dasharray="3 10"/>
+  <path d="M949 188L957 103L990 132Q1020 122 1050 132L1083 103L1091 188Q1085 244 1020 253Q955 244 949 188Z" fill="#161B22" stroke="#6F8FAF" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M973 178L993 181M1047 181L1067 178" stroke="#F2A93B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1013 202H1027L1020 209Z" fill="#8B949E"/>
+  <path d="M882 274H921L939 293H1097L1123 267H1156" fill="none" stroke="#6F8FAF" stroke-width="1.5"/>
+  <circle cx="882" cy="274" r="4" fill="#F2A93B"/>
+  <text x="44" y="321" font-family="Consolas" font-size="15" font-weight="400" letter-spacing="1.5" fill="#8B949E">LB / 616</text>
+</svg>

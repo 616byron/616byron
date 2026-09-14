@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700" role="img" aria-labelledby="title desc">
+  <title id="title">LB / 616 - Luciano Barbosa</title>
+  <desc id="desc">Mobile composition. Building useful systems, strange experiments and things I actually want to use. Brazil. Building.</desc>
+  <rect width="700" height="700" fill="#0B0D10"/>
+  <rect x="0.5" y="0.5" width="699" height="699" rx="0" fill="#0B0D10" stroke="#2A323C"/>
+  <text x="40" y="58" font-family="Consolas" font-size="23" font-weight="400" letter-spacing="1" fill="#8B949E">PERSONAL SOFTWARE LAB</text>
+  <path d="M40 84H660" stroke="#2A323C" stroke-width="1"/>
+  <text x="33" y="230" font-family="Segoe UI" font-size="127" font-weight="700" letter-spacing="-5" fill="#E8E6DF">LB</text>
+  <text x="216" y="223" font-family="Segoe UI" font-size="101" font-weight="400" letter-spacing="0" fill="#8B949E">/</text>
+  <text x="287" y="230" font-family="Segoe UI" font-size="127" font-weight="700" letter-spacing="-5" fill="#F2A93B">616</text>
+  <text x="40" y="319" font-family="Segoe UI" font-size="43" font-weight="600" letter-spacing="2" fill="#E8E6DF">LUCIANO BARBOSA</text>
+  <text x="40" y="377" font-family="Segoe UI" font-size="31" font-weight="400" letter-spacing="1" fill="#8B949E">DATA · SOFTWARE</text>
+  <text x="40" y="419" font-family="Segoe UI" font-size="31" font-weight="400" letter-spacing="1" fill="#8B949E">ARTIFICIAL INTELLIGENCE</text>
+  <path d="M40 456H660" stroke="#2A323C" stroke-width="1"/>
+  <text x="40" y="512" font-family="Segoe UI" font-size="31" font-weight="400" letter-spacing="0" fill="#E8E6DF">Building useful systems,</text>
+  <text x="40" y="554" font-family="Segoe UI" font-size="31" font-weight="400" letter-spacing="0" fill="#E8E6DF">strange experiments and things</text>
+  <text x="40" y="596" font-family="Segoe UI" font-size="31" font-weight="400" letter-spacing="0" fill="#E8E6DF">I actually want to use.</text>
+  <text x="40" y="665" font-family="Consolas" font-size="23" font-weight="400" letter-spacing="1" fill="#8B949E">BRAZIL</text>
+  <circle cx="481" cy="657" r="5" fill="#F2A93B"/>
+  <text x="500" y="665" font-family="Consolas" font-size="23" font-weight="400" letter-spacing="1" fill="#F2A93B">BUILDING</text>
+  <path d="M40 699H190" stroke="#F2A93B" stroke-width="2"/>
+</svg>

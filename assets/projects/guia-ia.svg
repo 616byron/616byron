@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Guia IA</title>
+  <desc id="desc">Original editorial cover with an open book for a practical Brazilian AI guide. Identity artwork, not an application screenshot.</desc>
+  <rect width="1200" height="340" fill="#0B0D10"/>
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="0" fill="#0B0D10" stroke="#2A323C"/>
+  <rect x="839" y="1" width="360" height="338" rx="0" fill="#12161C" stroke="#12161C"/>
+  <text x="44" y="60" font-family="Consolas" font-size="25" font-weight="400" letter-spacing="1" fill="#6F8FAF">// PRACTICAL AI EDUCATION</text>
+  <text x="40" y="179" font-family="Segoe UI" font-size="82" font-weight="600" letter-spacing="-2" fill="#E8E6DF">Guia IA</text>
+  <text x="44" y="248" font-family="Consolas" font-size="31" font-weight="400" letter-spacing="0" fill="#8B949E">LEARN. QUESTION. BUILD.</text>
+  <path d="M44 296H280" stroke="#6F8FAF" stroke-width="2"/>
+  <path d="M902 99Q961 81 1019 113Q1077 81 1136 99V239Q1077 223 1019 253Q961 223 902 239Z" fill="#161B22" stroke="#6F8FAF" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M1019 113V253" stroke="#6F8FAF" stroke-width="2"/>
+  <path d="M925 129Q962 122 997 137M925 152Q962 145 997 160M925 175Q962 168 984 179" fill="none" stroke="#8B949E" stroke-width="2"/>
+  <path d="M1043 137Q1076 123 1111 129" fill="none" stroke="#F2A93B" stroke-width="4"/>
+  <path d="M1043 161Q1076 147 1111 153M1043 184Q1076 170 1111 176M1043 207Q1076 193 1096 197" fill="none" stroke="#8B949E" stroke-width="2"/>
+  <path d="M909 275H1131" stroke="#2A323C" stroke-width="1"/>
+  <text x="44" y="321" font-family="Consolas" font-size="15" font-weight="400" letter-spacing="1.5" fill="#8B949E">LB / 616</text>
+</svg>

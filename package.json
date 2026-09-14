@@ -1,0 +1,12 @@
+{
+  "name": "616byron-profile-assets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional local renderer for the LB / 616 profile artwork.",
+  "scripts": {
+    "render:assets": "node scripts/render-assets.cjs"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "2.6.2"
+  }
+}
