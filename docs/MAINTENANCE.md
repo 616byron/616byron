@@ -4,6 +4,10 @@
 
 Edit `README.md` directly. Keep project names, maturity and public availability accurate. A project being mentioned does not mean its source is public. Add a repository link only after confirming it is public and intended for this profile.
 
+Keep skills separate from public projects. A skill Luciano confirms he uses can be listed without a public repository. Describe professional capabilities in general terms; never copy company material or imply that a private engagement is a public case study. Planned synthetic examples must remain labeled as plans until they exist.
+
+Lead with data and automation, followed by software, AI and personal experiments. Keep the Toolbox grouped into Data & Automation and Software & AI, using native text that wraps on mobile. Preserve the LB / 616 artwork and palette.
+
 Use `templates/PROJECT_README_TEMPLATE.md` when preparing an individual project's README. The template is a writing aid, not a statement that its sections or features already exist.
 
 ## Edit artwork
